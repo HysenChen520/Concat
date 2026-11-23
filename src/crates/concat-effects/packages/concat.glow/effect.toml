@@ -2,19 +2,19 @@ format = 2
 
 [effect]
 id = "concat.glow"
-name = "Glow"
+name = "辉光"
 kind = "effect"
-category = "Stylize"
+category = "风格化"
 shelves = ["Featured", "Light & Shadow"]
 order = 42
 version = 2
 intensity = "amount"
 aliases = ["glow"]
-description = "A soft bloom around the bright parts of the picture."
+description = "画面明亮部分周围的柔和光晕。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 10
 max = 100
 default = 45

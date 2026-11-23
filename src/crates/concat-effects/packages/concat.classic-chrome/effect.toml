@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.classic-chrome"
-name = "Classic Chrome"
+name = "经典铬"
 kind = "filter"
-category = "Film"
+category = "胶片"
 order = 61
-description = "Muted highlights and deep, open shadows: the restrained look of a classic colour negative."
+description = "高光克制、阴影深沉通透：经典彩色负片的沉稳质感。"
 
 [wgsl]
 entry = "effect.wgsl"

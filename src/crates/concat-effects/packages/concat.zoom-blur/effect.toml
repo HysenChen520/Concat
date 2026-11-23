@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.zoom-blur"
-name = "Zoom Blur"
+name = "径向模糊"
 kind = "effect"
-category = "Blur"
+category = "模糊"
 order = 23
 intensity = "amount"
-description = "A rush towards a point, as if the lens zoomed during the shot."
+description = "朝一点急速推进，如同拍摄中镜头变焦。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 25
@@ -21,7 +21,7 @@ animate = true
 
 [[param]]
 key = "x"
-label = "Centre X"
+label = "中心 X"
 min = 0
 max = 100
 default = 50
@@ -30,7 +30,7 @@ unit = "%"
 
 [[param]]
 key = "y"
-label = "Centre Y"
+label = "中心 Y"
 min = 0
 max = 100
 default = 50

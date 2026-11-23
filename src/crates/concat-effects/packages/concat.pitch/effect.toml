@@ -1,15 +1,15 @@
 [effect]
 id = "concat.pitch"
-name = "Pitch"
+name = "变调"
 kind = "audio"
-category = "Voice"
+category = "人声"
 order = 10
 intensity = "semitones"
-description = "Up or down by semitones, the length untouched."
+description = "按半音升降，时长不变。"
 
 [[param]]
 key = "semitones"
-label = "Semitones"
+label = "半音"
 min = -12
 max = 12
 default = 0

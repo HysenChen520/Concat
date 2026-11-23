@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.autumn"
-name = "Autumn"
+name = "秋日"
 kind = "filter"
-category = "Scenery"
+category = "风光"
 order = 58
-description = "Greens pulled toward amber, the picture dipped in fall light."
+description = "绿色偏向琥珀色，画面浸染在秋日光线里。"
 
 [wgsl]
 entry = "effect.wgsl"

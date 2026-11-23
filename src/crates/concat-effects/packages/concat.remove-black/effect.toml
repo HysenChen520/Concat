@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.remove-black"
-name = "Remove Black"
+name = "去黑场"
 kind = "effect"
-category = "Cutout"
+category = "抠像"
 order = 60
 intensity = "strength"
-description = "Takes out a black background - fire, sparks, smoke, light leaks or a logo shot on black - keeping its glow as see-through light, with no dark fringe, over whatever is beneath and in an export with transparency."
+description = "去除黑色背景——黑底拍摄的火焰、火花、烟雾、漏光或标志——把辉光保留为透明光，无黑边，可叠在任意底层，并在带透明通道的导出中生效。"
 
 # The level of the picture taken for black, so a lifted black, grain and a
 # compressed stream's noise go with it.
 [[param]]
 key = "threshold"
-label = "Black level"
+label = "黑场电平"
 min = 0
 max = 50
 default = 4
@@ -25,7 +25,7 @@ unit = "%"
 # parts more solid.
 [[param]]
 key = "strength"
-label = "Strength"
+label = "强度"
 min = 50
 max = 400
 default = 100

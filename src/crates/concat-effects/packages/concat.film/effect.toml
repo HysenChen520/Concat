@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.film"
-name = "Film"
+name = "胶片"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 34
 intensity = "grain"
-description = "A film curve with a real toe and shoulder, warm halation around the lights, and grain that moves. Print stock, not a filter."
+description = "带真实趾部与肩部的胶片曲线，灯光周围暖色光晕，颗粒在流动。是印片质感，而非普通滤镜。"
 
 [[param]]
 key = "grain"
-label = "Grain"
+label = "颗粒"
 min = 0
 max = 100
 default = 40
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 0
 max = 100
 default = 50

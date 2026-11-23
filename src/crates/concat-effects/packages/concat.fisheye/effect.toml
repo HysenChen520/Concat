@@ -2,19 +2,19 @@ format = 2
 
 [effect]
 id = "concat.fisheye"
-name = "Fisheye"
+name = "鱼眼"
 version = 2
 kind = "effect"
-category = "Distort"
+category = "扭曲"
 shelves = ["Optical & Lens"]
 order = 52
 intensity = "strength"
 aliases = ["fisheye"]
-description = "The bulge of a very wide lens."
+description = "超广角镜头的鼓胀变形。"
 
 [[param]]
 key = "strength"
-label = "Strength"
+label = "强度"
 min = 5
 max = 100
 default = 50

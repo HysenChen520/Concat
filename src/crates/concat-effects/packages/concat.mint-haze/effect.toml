@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.mint-haze"
-name = "Mint Haze"
+name = "薄荷薄雾"
 kind = "filter"
-category = "Stylised"
+category = "风格化"
 order = 53
 intensity = "amount"
-description = "Soft green through the midtones and whites, colour muted, a light matte. The trend look, gentle enough for a face."
+description = "中间调与白里透柔绿，色彩克制，一层轻哑光。潮流质感，柔和到可用于人脸。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 60

@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.beat-shake"
-name = "Beat Shake"
+name = "节拍抖动"
 kind = "effect"
-category = "Shake"
+category = "抖动"
 order = 6
 intensity = "amount"
-description = "A hit on every beat at the tempo you set, each knocked a different way, from the moment the clip or layer starts."
+description = "按你设定的节拍每拍震一下，每次晃动方向不同，从片段或图层开始时起作用。"
 
 [[param]]
 key = "bpm"
-label = "Tempo"
+label = "速度"
 unit = "BPM"
 min = 40
 max = 240
@@ -20,7 +20,7 @@ default = 120
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 unit = "%"
 min = 0
 max = 100
@@ -29,7 +29,7 @@ default = 50
 
 [[param]]
 key = "length"
-label = "Hit Length"
+label = "打击长度"
 unit = "%"
 min = 10
 max = 100
@@ -38,7 +38,7 @@ default = 60
 
 [[param]]
 key = "punch"
-label = "Zoom Punch"
+label = "缩放冲击"
 unit = "%"
 min = 0
 max = 100
@@ -47,7 +47,7 @@ default = 30
 
 [[param]]
 key = "blur"
-label = "Motion Blur"
+label = "动态模糊"
 unit = "%"
 min = 0
 max = 100

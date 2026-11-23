@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.noir"
-name = "Noir"
+name = "黑色电影"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 50
-description = "Desaturated and heavy, with a cold cast into the shadows and the corners dimmed."
+description = "去色厚重，阴影带冷色，四角压暗。"
 
 [wgsl]
 entry = "effect.wgsl"

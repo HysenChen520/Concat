@@ -1,15 +1,15 @@
 [effect]
 id = "concat.denoise"
-name = "Noise Reduction"
+name = "降噪"
 kind = "audio"
-category = "Clean"
+category = "修复"
 order = 41
 intensity = "strength"
-description = "Takes the hum and hiss out from under the voice."
+description = "去除人声下方的嗡鸣与嘶嘶声。"
 
 [[param]]
 key = "strength"
-label = "Strength"
+label = "强度"
 min = 0
 max = 100
 default = 50

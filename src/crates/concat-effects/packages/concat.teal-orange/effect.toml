@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.teal-orange"
-name = "Teal & Orange"
+name = "青橙色调"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 30
 intensity = "amount"
-description = "Teal in the shadows, orange in the highlights, skin held as skin, a film curve over it. The blockbuster grade, and the most requested look there is."
+description = "阴影青绿，高光橙，皮肤保持肤色，上层覆一条胶片曲线。大片调色，最受欢迎的色调。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 70
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "contrast"
-label = "Contrast"
+label = "对比度"
 min = 0
 max = 100
 default = 25
@@ -29,7 +29,7 @@ unit = "%"
 
 [[param]]
 key = "skin"
-label = "Protect skin"
+label = "肤色保护"
 min = 0
 max = 100
 default = 80

@@ -2,17 +2,17 @@ format = 2
 
 [effect]
 id = "concat.warm"
-name = "Warm"
+name = "暖调"
 kind = "filter"
-category = "Color"
+category = "色彩"
 order = 30
 intensity = "temperature"
 aliases = ["warm"]
-description = "Shifts the picture towards candlelight."
+description = "将画面推向烛光暖调。"
 
 [[param]]
 key = "temperature"
-label = "Temperature"
+label = "色温"
 min = 3000
 max = 6000
 default = 4600

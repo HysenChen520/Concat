@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.clean"
-name = "Clean"
+name = "清透"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 12
 intensity = "amount"
-description = "Barely there: neutral, a gentle curve, a touch more colour, and the reds calmed so a face reads even. What a talking head wants."
+description = "几乎无痕：中性、柔和曲线、略增色彩，压下红色让肤色均匀。口播镜头所需。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 50

@@ -2,12 +2,12 @@ format = 2
 
 [effect]
 id = "concat.fade-white"
-name = "Fade to White"
+name = "白场过渡"
 kind = "transition"
-category = "Basic"
+category = "基础"
 order = 2
 aliases = ["fade-white"]
-description = "The outgoing shot fades up to white, then the incoming one fades down out of it."
+description = "退出镜头渐隐至白，再由白淡出进入镜头。"
 
 [transition]
 entry = "effect.wgsl"

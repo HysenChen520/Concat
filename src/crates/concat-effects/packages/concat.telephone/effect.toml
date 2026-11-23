@@ -1,16 +1,16 @@
 [effect]
 id = "concat.telephone"
-name = "Telephone"
+name = "电话音"
 kind = "audio"
-category = "Tone"
+category = "音色"
 order = 22
 intensity = "drive"
 aliases = ["telephone"]
-description = "The narrow band of a phone line."
+description = "电话线路的窄频段。"
 
 [[param]]
 key = "drive"
-label = "Drive"
+label = "失真度"
 min = 0
 max = 10
 default = 3

@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.delicious"
-name = "Delicious"
+name = "诱人美食"
 kind = "filter"
-category = "Food"
+category = "美食"
 order = 54
-description = "Warm and saturated, the appetising push every food shot wants."
+description = "温暖浓郁，美食镜头所需的诱人提升。"
 
 [wgsl]
 entry = "effect.wgsl"

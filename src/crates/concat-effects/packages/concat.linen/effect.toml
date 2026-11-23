@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.linen"
-name = "Linen"
+name = "亚麻暖色"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 18
 intensity = "matte"
-description = "Whitewash's warm twin: the same soft matte with cream in the whites and a little gold in the middle. Interiors and morning light."
+description = "Whitewash 的暖色姊妹款：同样柔和哑光，白里带奶油色，中间调一丝金。室内与晨光适用。"
 
 [[param]]
 key = "matte"
-label = "Matte"
+label = "哑光"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 0
 max = 100
 default = 50

@@ -1,15 +1,15 @@
 [effect]
 id = "concat.distorted"
-name = "Distorted"
+name = "失真"
 kind = "audio"
-category = "Tone"
+category = "音色"
 order = 26
 intensity = "drive"
-description = "Driven hard and clipped."
+description = "强推并削波失真。"
 
 [[param]]
 key = "drive"
-label = "Drive"
+label = "失真度"
 min = 0
 max = 100
 default = 50

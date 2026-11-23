@@ -2,12 +2,12 @@ format = 2
 
 [effect]
 id = "concat.adjust"
-name = "Adjust"
+name = "微调"
 kind = "filter"
-category = "Adjust"
+category = "调整"
 order = 0
 intensity = "exposure"
-description = "The manual colour panel every picture clip carries: exposure, tone, balance, sharpness and edge."
+description = "每个画面片段自带的手动调色面板：曝光、色调、白平衡、锐度与边缘。"
 
 # Three groups, in the order the panel lists them. Colour: temperature in
 # kelvin with 6500 the picture as shot, tint green to magenta, saturation
@@ -26,8 +26,8 @@ version = 2
 
 [[param]]
 key = "temperature"
-group = "Color"
-label = "Temperature"
+group = "色彩"
+label = "色温"
 min = 2000
 max = 11000
 default = 6500
@@ -36,8 +36,8 @@ unit = "K"
 
 [[param]]
 key = "tint"
-group = "Color"
-label = "Tint"
+group = "色彩"
+label = "色调"
 min = -100
 max = 100
 default = 0
@@ -46,8 +46,8 @@ unit = "%"
 
 [[param]]
 key = "saturation"
-group = "Color"
-label = "Saturation"
+group = "色彩"
+label = "饱和度"
 min = -100
 max = 100
 default = 0
@@ -56,8 +56,8 @@ unit = "%"
 
 [[param]]
 key = "exposure"
-group = "Lightness"
-label = "Exposure"
+group = "明暗"
+label = "曝光"
 min = -3
 max = 3
 default = 0
@@ -66,8 +66,8 @@ unit = "EV"
 
 [[param]]
 key = "brightness"
-group = "Lightness"
-label = "Brightness"
+group = "明暗"
+label = "亮度"
 min = -100
 max = 100
 default = 0
@@ -76,8 +76,8 @@ unit = "%"
 
 [[param]]
 key = "contrast"
-group = "Lightness"
-label = "Contrast"
+group = "明暗"
+label = "对比度"
 min = -100
 max = 100
 default = 0
@@ -86,8 +86,8 @@ unit = "%"
 
 [[param]]
 key = "highlights"
-group = "Lightness"
-label = "Highlights"
+group = "明暗"
+label = "高光"
 min = -100
 max = 100
 default = 0
@@ -96,8 +96,8 @@ unit = "%"
 
 [[param]]
 key = "shadows"
-group = "Lightness"
-label = "Shadows"
+group = "明暗"
+label = "阴影"
 min = -100
 max = 100
 default = 0
@@ -106,8 +106,8 @@ unit = "%"
 
 [[param]]
 key = "whites"
-group = "Lightness"
-label = "Whites"
+group = "明暗"
+label = "白场"
 min = -100
 max = 100
 default = 0
@@ -116,8 +116,8 @@ unit = "%"
 
 [[param]]
 key = "blacks"
-group = "Lightness"
-label = "Blacks"
+group = "明暗"
+label = "黑场"
 min = -100
 max = 100
 default = 0
@@ -126,8 +126,8 @@ unit = "%"
 
 [[param]]
 key = "sharpen"
-group = "Effects"
-label = "Sharpen"
+group = "效果"
+label = "锐化"
 min = 0
 max = 100
 default = 0
@@ -136,8 +136,8 @@ unit = "%"
 
 [[param]]
 key = "fade"
-group = "Effects"
-label = "Fade"
+group = "效果"
+label = "衰减"
 min = 0
 max = 100
 default = 0
@@ -146,8 +146,8 @@ unit = "%"
 
 [[param]]
 key = "vignette"
-group = "Effects"
-label = "Vignette"
+group = "效果"
+label = "暗角"
 min = 0
 max = 100
 default = 0
@@ -156,8 +156,8 @@ unit = "%"
 
 [[param]]
 key = "lift"
-group = "Wheels"
-label = "Lift"
+group = "色轮"
+label = "提升"
 type = "wheel"
 min = -1
 max = 1
@@ -167,8 +167,8 @@ animate = true
 
 [[param]]
 key = "gamma"
-group = "Wheels"
-label = "Gamma"
+group = "色轮"
+label = "伽马"
 type = "wheel"
 min = -1
 max = 1
@@ -178,8 +178,8 @@ animate = true
 
 [[param]]
 key = "gain"
-group = "Wheels"
-label = "Gain"
+group = "色轮"
+label = "增益"
 type = "wheel"
 min = -1
 max = 1
@@ -189,26 +189,26 @@ animate = true
 
 [[param]]
 key = "luma"
-group = "Curves"
-label = "Luma"
+group = "曲线"
+label = "亮度"
 type = "curve"
 
 [[param]]
 key = "red"
-group = "Curves"
-label = "Red"
+group = "曲线"
+label = "红"
 type = "curve"
 
 [[param]]
 key = "green"
-group = "Curves"
-label = "Green"
+group = "曲线"
+label = "绿"
 type = "curve"
 
 [[param]]
 key = "blue"
-group = "Curves"
-label = "Blue"
+group = "曲线"
+label = "蓝"
 type = "curve"
 
 [wgsl]

@@ -2,17 +2,17 @@ format = 2
 
 [effect]
 id = "concat.neon"
-name = "Neon"
+name = "霓虹"
 kind = "filter"
-category = "Stylised"
+category = "风格化"
 shelves = ["Party & Club"]
 order = 51
 intensity = "glow"
-description = "Magenta in the shadows, cyan in the highlights, hard contrast, colour turned up, and the lights themselves blooming. Night streets and signage."
+description = "阴影品红，高光青色，硬对比，色彩拉高，灯光本身发光。夜街与招牌适用。"
 
 [[param]]
 key = "glow"
-label = "Glow"
+label = "光晕"
 min = 0
 max = 100
 default = 60
@@ -21,7 +21,7 @@ unit = "%"
 
 [[param]]
 key = "punch"
-label = "Punch"
+label = "冲击"
 min = 0
 max = 100
 default = 50

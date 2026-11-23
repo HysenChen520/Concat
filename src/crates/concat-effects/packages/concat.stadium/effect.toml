@@ -1,16 +1,16 @@
 [effect]
 id = "concat.stadium"
-name = "Stadium"
+name = "体育场"
 kind = "audio"
-category = "Space"
+category = "空间"
 order = 35
 intensity = "size"
 aliases = ["arena"]
-description = "Vast stadium echoes and reverberations across a massive arena."
+description = "巨型场馆内辽阔的体育场回声与混响。"
 
 [[param]]
 key = "size"
-label = "Size"
+label = "大小"
 min = 1
 max = 10
 default = 6

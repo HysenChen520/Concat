@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.vignette"
-name = "Vignette"
+name = "暗角"
 version = 2
 kind = "effect"
-category = "Stylize"
+category = "风格化"
 order = 40
 intensity = "strength"
 aliases = ["vignette"]
-description = "Darkened corners that draw the eye to the middle."
+description = "四角压暗，把视线引向中央。"
 
 [[param]]
 key = "strength"
-label = "Strength"
+label = "强度"
 min = 10
 max = 100
 default = 50

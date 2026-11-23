@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.iris"
-name = "Iris"
+name = "光圈收缩"
 kind = "transition"
-category = "Wipe"
+category = "擦除"
 order = 11
-description = "A round opening grows from the centre until the next shot fills the frame."
+description = "圆形光圈从中心扩大，直到下一镜头铺满画面。"
 
 [[param]]
 key = "softness"
-label = "Softness"
+label = "柔化"
 unit = "%"
 min = 0
 max = 100

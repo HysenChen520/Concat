@@ -1,16 +1,16 @@
 [effect]
 id = "concat.cathedral"
-name = "Cathedral"
+name = "教堂混响"
 kind = "audio"
-category = "Space"
+category = "空间"
 order = 34
 intensity = "size"
 aliases = ["cathedral"]
-description = "Stone and height: reflections that take a while to arrive."
+description = "石质空间与高度感：延迟片刻才到达的回声。"
 
 [[param]]
 key = "size"
-label = "Size"
+label = "大小"
 min = 0
 max = 100
 default = 55

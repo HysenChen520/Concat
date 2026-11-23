@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.glitch-transition"
-name = "Glitch"
+name = "故障干扰"
 kind = "transition"
-category = "Glitch"
+category = "故障"
 order = 8
-description = "The picture breaks into torn bands that jump sideways and flicker between the two shots until the next one holds."
+description = "画面碎裂成横向撕扯的条带，在两镜头间侧跳闪烁，直到下一镜头稳住。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 unit = "%"
 min = 0
 max = 100

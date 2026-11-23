@@ -2,17 +2,17 @@ format = 2
 
 [effect]
 id = "concat.contrast-pop"
-name = "Contrast Pop"
+name = "强对比"
 kind = "filter"
-category = "Color"
+category = "色彩"
 order = 33
 intensity = "contrast"
 aliases = ["contrast-pop"]
-description = "Deeper shadows, brighter highlights."
+description = "阴影更深，高光更亮。"
 
 [[param]]
 key = "contrast"
-label = "Contrast"
+label = "对比度"
 min = 1
 max = 2
 default = 1.25

@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.zoom-blur-transition"
-name = "Zoom Blur"
+name = "缩放模糊"
 kind = "transition"
-category = "Zoom"
+category = "缩放"
 order = 15
-description = "The camera lunges into the last shot in a rush of streaks, and the next one rushes back out to meet it."
+description = "镜头猛冲入上一镜头，拖成一束条纹，下一镜头再反向冲出相接。"
 
 [[param]]
 key = "strength"
-label = "Strength"
+label = "强度"
 unit = "%"
 min = 0
 max = 100

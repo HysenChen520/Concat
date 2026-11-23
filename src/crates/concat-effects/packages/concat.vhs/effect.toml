@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.vhs"
-name = "VHS"
+name = "VHS 录像"
 kind = "filter"
-category = "Retro"
+category = "复古"
 order = 44
 intensity = "bleed"
-description = "Colour bleeding sideways, scan lines, softness, tape noise and too much saturation, with the slight vertical smear of a worn head."
+description = "色彩横向溢出、扫描线、柔化、磁带噪点与过饱和，磁头磨损带来轻微纵向拖影。"
 
 [[param]]
 key = "bleed"
-label = "Bleed"
+label = "渗色"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "lines"
-label = "Lines"
+label = "扫描线"
 min = 0
 max = 100
 default = 50

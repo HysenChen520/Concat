@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.bronze"
-name = "Bronze"
+name = "古铜"
 kind = "filter"
-category = "Retro"
+category = "复古"
 order = 42
 intensity = "tone"
-description = "Sepia that keeps its contrast and its highlights, so it reads as old film rather than a brown wash."
+description = "保留对比与高光的棕褐色，呈现老胶片而非一片泛黄。"
 
 [[param]]
 key = "tone"
-label = "Tone"
+label = "色调"
 min = 0
 max = 100
 default = 80
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "contrast"
-label = "Contrast"
+label = "对比度"
 min = 0
 max = 100
 default = 30

@@ -2,19 +2,19 @@ format = 2
 
 [effect]
 id = "concat.film-grain"
-name = "Film Grain"
+name = "胶片颗粒"
 version = 2
 kind = "effect"
-category = "Stylize"
+category = "风格化"
 shelves = ["Retro & Film"]
 order = 41
 intensity = "amount"
 aliases = ["film-grain"]
-description = "Dancing grain, the texture of film stock."
+description = "跳动的颗粒，胶片素材的质感。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 type = "int"
 min = 2
 max = 40

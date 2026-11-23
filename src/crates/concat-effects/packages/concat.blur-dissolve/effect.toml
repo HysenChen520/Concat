@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.blur-dissolve"
-name = "Blur Dissolve"
+name = "模糊溶解"
 kind = "transition"
-category = "Dissolve"
+category = "溶解"
 order = 1
-description = "Both shots go soft towards the cut and the swap happens inside the blur, then the next one comes back into focus."
+description = "两个镜头在剪切处都变柔，在模糊中完成切换，随后下一镜头重新清晰。"
 
 [[param]]
 key = "strength"
-label = "Strength"
+label = "强度"
 unit = "%"
 min = 0
 max = 100

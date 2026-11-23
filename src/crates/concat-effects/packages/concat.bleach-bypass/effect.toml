@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.bleach-bypass"
-name = "Bleach Bypass"
+name = "漂白旁路"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 51
-description = "The silver-retention film process: colour washed out, contrast pushed hard."
+description = "银盐保留胶片工艺：色彩被冲淡，对比大幅提升。"
 
 [wgsl]
 entry = "effect.wgsl"

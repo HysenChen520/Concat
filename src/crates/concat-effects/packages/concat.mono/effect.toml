@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.mono"
-name = "Mono"
+name = "单色"
 kind = "filter"
-category = "Retro"
+category = "复古"
 order = 43
 intensity = "contrast"
-description = "Black and white through a coloured filter: red darkens skies and lightens skin, green does the reverse. A little grain if you want it."
+description = "彩色滤镜下的黑白：红色压暗天空、提亮皮肤，绿色相反。可按需加一点颗粒。"
 
 [[param]]
 key = "colour"
-label = "Colour filter"
+label = "滤色"
 min = -100
 max = 100
 default = 40
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "contrast"
-label = "Contrast"
+label = "对比度"
 min = 0
 max = 100
 default = 40
@@ -29,7 +29,7 @@ unit = "%"
 
 [[param]]
 key = "grain"
-label = "Grain"
+label = "颗粒"
 min = 0
 max = 100
 default = 0

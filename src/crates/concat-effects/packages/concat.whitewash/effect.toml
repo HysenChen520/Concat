@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.whitewash"
-name = "Whitewash"
+name = "漂白柔雾"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 17
 intensity = "matte"
-description = "Bright and matte: whites soft and cool, blacks lifted well off the floor, colour quiet. The clean minimal look of a white room."
+description = "明亮哑光：白色柔而冷，黑位明显抬离底部，色彩安静。白房间式干净极简质感。"
 
 [[param]]
 key = "matte"
-label = "Matte"
+label = "哑光"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "cool"
-label = "Cool"
+label = "冷色"
 min = 0
 max = 100
 default = 40

@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.pink-fuzz"
-name = "Pink Fuzz"
+name = "粉色柔焦"
 kind = "filter"
-category = "Stylised"
+category = "风格化"
 order = 50
 intensity = "haze"
-description = "Low contrast, pink and lavender in the light, and a soft bloom over it all. The dreamy one."
+description = "低对比，亮部粉与薰衣草紫，整体一层柔光晕。梦幻款。"
 
 [[param]]
 key = "haze"
-label = "Haze"
+label = "雾感"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "blush"
-label = "Blush"
+label = "腮红"
 min = 0
 max = 100
 default = 50

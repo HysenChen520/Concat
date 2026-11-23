@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.chromatic-aberration"
-name = "Chromatic Aberration"
+name = "色差"
 version = 2
 kind = "effect"
-category = "Distort"
+category = "扭曲"
 order = 54
 intensity = "shift"
 aliases = ["chromatic-aberration"]
-description = "Red and blue pulled apart towards the edges, the colour fringing of a cheap lens."
+description = "红蓝两色向边缘分离，廉价镜头的色边。"
 
 [[param]]
 key = "shift"
-label = "Shift"
+label = "偏移"
 type = "int"
 min = 1
 max = 24

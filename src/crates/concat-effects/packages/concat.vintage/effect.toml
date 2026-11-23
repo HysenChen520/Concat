@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.vintage"
-name = "Vintage"
+name = "复古"
 kind = "filter"
-category = "Retro"
+category = "复古"
 order = 40
 intensity = "age"
-description = "A seventies print: matte blacks and whites, colour faded, greens gone to yellow, a soft vignette."
+description = "七十年代印片：黑白哑光，色彩褪色，绿转黄，柔和暗角。"
 
 [[param]]
 key = "age"
-label = "Age"
+label = "年代感"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "tint"
-label = "Tint"
+label = "色调"
 min = 0
 max = 100
 default = 50

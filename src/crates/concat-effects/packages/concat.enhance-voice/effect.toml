@@ -1,15 +1,15 @@
 [effect]
 id = "concat.enhance-voice"
-name = "Enhance Voice"
+name = "人声增强"
 kind = "audio"
-category = "Clean"
+category = "修复"
 order = 42
 intensity = "amount"
-description = "Clears the room out of a recording: rumble, hiss, sibilance and uneven level."
+description = "清除录音中的房间感：低频轰鸣、嘶声、齿音与电平不均。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 60

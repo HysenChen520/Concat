@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.natural"
-name = "Natural"
+name = "自然"
 kind = "filter"
-category = "Portrait"
+category = "人像"
 order = 55
-description = "A gentle, true-to-life lift: barely-there warmth, skin left alone."
+description = "柔和真实的提升：几乎无痕的暖意，皮肤不动。"
 
 [wgsl]
 entry = "effect.wgsl"

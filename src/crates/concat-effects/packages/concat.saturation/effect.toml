@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.saturation"
-name = "Saturation"
+name = "饱和度"
 kind = "effect"
-category = "Color"
+category = "色彩"
 order = 12
 intensity = "amount"
-description = "Richer or greyer colour, about each pixel's own brightness."
+description = "在每个像素自身亮度基础上，色彩更浓或更灰。"
 
 [[param]]
 key = "amount"
-label = "Saturation"
+label = "饱和度"
 min = -100
 max = 100
 default = 0

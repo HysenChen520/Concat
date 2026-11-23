@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.exposure"
-name = "Exposure"
+name = "曝光"
 kind = "effect"
-category = "Color"
+category = "色彩"
 order = 10
 intensity = "stops"
-description = "Brighter or darker by stops of light, as the lens would make it, highlights kept."
+description = "按曝光档调亮或调暗，如同镜头所致，保住高光。"
 
 [[param]]
 key = "stops"
-label = "Exposure"
+label = "曝光"
 min = -4
 max = 4
 default = 0

@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.impact"
-name = "Impact"
+name = "冲击震动"
 kind = "effect"
-category = "Shake"
+category = "抖动"
 order = 5
 intensity = "amount"
-description = "One hard hit when the clip or layer starts: the frame jolts, punches in and rings out. Drop it on the beat."
+description = "片段或图层开始时一记重击：画面震动、快速推近并余震。卡在节拍上使用。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 unit = "%"
 min = 0
 max = 100
@@ -20,7 +20,7 @@ default = 60
 
 [[param]]
 key = "length"
-label = "Length"
+label = "长度"
 unit = "s"
 min = 0.1
 max = 2
@@ -29,7 +29,7 @@ default = 0.45
 
 [[param]]
 key = "punch"
-label = "Zoom Punch"
+label = "缩放冲击"
 unit = "%"
 min = 0
 max = 100
@@ -38,17 +38,17 @@ default = 40
 
 [[param]]
 key = "direction"
-label = "Direction"
+label = "方向"
 type = "enum"
 values = [0, 1, 2]
-labels = ["Any", "Sideways", "Up and Down"]
+labels = ["任意", "横向", "纵向"]
 default = 0
 min = 0
 max = 2
 
 [[param]]
 key = "blur"
-label = "Motion Blur"
+label = "动态模糊"
 unit = "%"
 min = 0
 max = 100

@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.bloom-pulse"
-name = "Bloom Pulse"
+name = "光晕脉动"
 kind = "effect"
-category = "Light"
+category = "光效"
 shelves = ["Featured"]
 order = 72
 version = 2
 intensity = "amount"
-description = "A soft bloom over the highlights that breathes in and out."
+description = "高光上柔和的光晕，随呼吸起伏。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 50
@@ -22,7 +22,7 @@ unit = "%"
 
 [[param]]
 key = "speed"
-label = "Speed"
+label = "速度"
 min = 0.5
 max = 5
 default = 2

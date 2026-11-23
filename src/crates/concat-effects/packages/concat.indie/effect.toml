@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.indie"
-name = "Indie"
+name = "独立电影"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 36
 intensity = "amount"
-description = "Muted and green-teal through the midtones, a gentle film curve, warmth only where a face is. The quiet grade of an indie film."
+description = "中间调偏灰绿青，柔和胶片曲线，仅在人脸处回暖。独立影片的低调调色。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 60

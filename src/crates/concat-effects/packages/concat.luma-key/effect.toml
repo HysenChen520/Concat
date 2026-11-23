@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.luma-key"
-name = "Luma Key"
+name = "亮度抠像"
 kind = "effect"
-category = "Cutout"
+category = "抠像"
 order = 59
 intensity = "threshold"
-description = "Keys out the dark of the picture - fire, smoke or sparks shot on black - or, inverted, the light."
+description = "抠除画面暗部——黑底拍摄的火焰、烟雾或火花——或反转后抠除亮部。"
 
 [[param]]
 key = "threshold"
-label = "Threshold"
+label = "阈值"
 min = 0
 max = 100
 default = 10
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "softness"
-label = "Softness"
+label = "柔化"
 min = 0
 max = 50
 default = 10
@@ -29,7 +29,7 @@ unit = "%"
 
 [[param]]
 key = "invert"
-label = "Invert"
+label = "反相"
 type = "bool"
 min = 0
 max = 1

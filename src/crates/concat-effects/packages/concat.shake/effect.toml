@@ -2,26 +2,26 @@ format = 2
 
 [effect]
 id = "concat.shake"
-name = "Shake"
+name = "抖动"
 kind = "effect"
-category = "Shake"
+category = "抖动"
 order = 4
 intensity = "amount"
-description = "A camera that will not keep still: a handheld drift, a nervous jitter or a quake, with a turn and a smear of its own."
+description = "静不下来的镜头：手持漂移、神经质抖动或震动，附带自转与拖影。"
 
 [[param]]
 key = "style"
-label = "Style"
+label = "风格"
 type = "enum"
 values = [0, 1, 2]
-labels = ["Handheld", "Jitter", "Quake"]
+labels = ["手持", "抖动", "震动"]
 default = 0
 min = 0
 max = 2
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 unit = "%"
 min = 0
 max = 100
@@ -30,7 +30,7 @@ default = 50
 
 [[param]]
 key = "speed"
-label = "Speed"
+label = "速度"
 unit = "%"
 min = 0
 max = 100
@@ -39,7 +39,7 @@ default = 50
 
 [[param]]
 key = "rotation"
-label = "Rotation"
+label = "旋转"
 unit = "%"
 min = 0
 max = 100
@@ -48,7 +48,7 @@ default = 40
 
 [[param]]
 key = "blur"
-label = "Motion Blur"
+label = "动态模糊"
 unit = "%"
 min = 0
 max = 100

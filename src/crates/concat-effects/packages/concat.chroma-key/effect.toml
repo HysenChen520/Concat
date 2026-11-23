@@ -2,20 +2,20 @@ format = 2
 
 [effect]
 id = "concat.chroma-key"
-name = "Chroma Key"
+name = "色度抠像"
 kind = "effect"
-category = "Cutout"
+category = "抠像"
 order = 58
 version = 2
 intensity = "strength"
-description = "Keys out a green or blue screen - found by itself, or the colour picked off the picture - even where it is unevenly lit, cleaning its colour off the edges and the spill off the subject. For a black background, use Remove Black."
+description = "抠除绿幕或蓝幕——可自动识别，或从画面上拾取颜色；即使光照不均也能清理边缘色溢出和主体上的溢色。黑色背景请用去黑背景（Remove Black）。"
 
 # The screen's colour, as picked. Left at its default, which is no colour at
 # all (an alpha of zero), the key finds the screen in the picture itself: the
 # commonest strongly green or strongly blue colour in it.
 [[param]]
 key = "color"
-label = "Key colour"
+label = "键控色"
 type = "color"
 min = 0
 max = 4294967295
@@ -25,7 +25,7 @@ default = 0
 # colour, more takes out what is less of it too.
 [[param]]
 key = "strength"
-label = "Strength"
+label = "强度"
 min = 50
 max = 200
 default = 100
@@ -37,7 +37,7 @@ unit = "%"
 # screen around it rather than the one colour.
 [[param]]
 key = "shadows"
-label = "Shadows"
+label = "阴影"
 min = 0
 max = 90
 default = 50
@@ -49,7 +49,7 @@ unit = "%"
 # the screen; towards 0 % or 100 % the one or the other.
 [[param]]
 key = "balance"
-label = "Balance"
+label = "平衡"
 min = 0
 max = 100
 default = 50
@@ -61,7 +61,7 @@ unit = "%"
 # of spill on the subject do not read as see-through.
 [[param]]
 key = "clip_black"
-label = "Clip black"
+label = "黑场裁切"
 min = 0
 max = 50
 default = 10
@@ -70,7 +70,7 @@ unit = "%"
 
 [[param]]
 key = "clip_white"
-label = "Clip white"
+label = "白场裁切"
 min = 50
 max = 100
 default = 85
@@ -81,7 +81,7 @@ unit = "%"
 # line picture, so a 4K clip and its half-size preview keep the same edge.
 [[param]]
 key = "grow"
-label = "Shrink / grow"
+label = "收缩/扩张"
 min = -10
 max = 10
 default = 0
@@ -90,7 +90,7 @@ unit = "px"
 
 [[param]]
 key = "feather"
-label = "Edge softness"
+label = "边缘柔化"
 min = 0
 max = 8
 default = 0
@@ -101,7 +101,7 @@ unit = "px"
 # given back as grey, so a face or a shirt keeps its brightness.
 [[param]]
 key = "spill"
-label = "Spill"
+label = "溢色"
 min = 0
 max = 100
 default = 100
@@ -110,7 +110,7 @@ unit = "%"
 
 [[param]]
 key = "restore"
-label = "Keep brightness"
+label = "保留亮度"
 min = 0
 max = 100
 default = 100
@@ -119,13 +119,13 @@ unit = "%"
 
 [[param]]
 key = "view"
-label = "View"
+label = "预览"
 type = "enum"
 min = 0
 max = 2
 default = 0
 values = [0, 1, 2]
-labels = ["Result", "Matte", "Status"]
+labels = ["结果", "蒙版", "状态"]
 
 [wgsl]
 entry = "effect.wgsl"

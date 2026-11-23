@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.soft-light"
-name = "Soft Light"
+name = "柔光"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 13
 intensity = "lift"
-description = "A matte: blacks lifted, whites eased down, contrast low, and a soft bloom in the light with cream in it. Airy and flattering."
+description = "一层哑光：黑位提亮，白位压下，对比偏低，亮部带奶油色柔光。轻盈讨喜。"
 
 [[param]]
 key = "lift"
-label = "Lift"
+label = "提升"
 min = 0
 max = 100
 default = 50
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 0
 max = 100
 default = 40

@@ -1,16 +1,16 @@
 [effect]
 id = "concat.room"
-name = "Room"
+name = "房间混响"
 kind = "audio"
-category = "Space"
+category = "空间"
 order = 31
 intensity = "size"
 aliases = ["room"]
-description = "The early reflections of a room."
+description = "房间的早期反射声。"
 
 [[param]]
 key = "size"
-label = "Size"
+label = "大小"
 min = 0
 max = 100
 default = 40

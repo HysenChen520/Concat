@@ -1,16 +1,16 @@
 [effect]
 id = "concat.treble"
-name = "Treble"
+name = "高音"
 kind = "audio"
-category = "Tone"
+category = "音色"
 order = 21
 intensity = "gain"
 aliases = ["treble"]
-description = "More sparkle."
+description = "更多高频透亮感。"
 
 [[param]]
 key = "gain"
-label = "Gain"
+label = "增益"
 min = 0
 max = 12
 default = 4

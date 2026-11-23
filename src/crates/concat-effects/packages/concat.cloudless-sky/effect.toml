@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.cloudless-sky"
-name = "Cloudless Sky"
+name = "晴空"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 15
 intensity = "sky"
-description = "Skies deeper and bluer, foliage cooler and calmer, the rest of the picture and every face untouched. Travel footage."
+description = "天空更深更蓝，植被更冷更静，画面其余部分与每张脸保持不动。旅行素材适用。"
 
 [[param]]
 key = "sky"
-label = "Sky"
+label = "天空"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "greens"
-label = "Greens"
+label = "绿色"
 min = 0
 max = 100
 default = 40

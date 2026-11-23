@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.super-8"
-name = "Super 8"
+name = "Super 8 胶片"
 kind = "filter"
-category = "Film"
+category = "胶片"
 order = 62
-description = "Faded, warm and grainy: an old home movie run through a projector."
+description = "褪色、温暖、颗粒感：投影机里的老式家庭影片。"
 
 [wgsl]
 entry = "effect.wgsl"

@@ -1,16 +1,16 @@
 [effect]
 id = "concat.bass"
-name = "Bass"
+name = "低音"
 kind = "audio"
-category = "Tone"
+category = "音色"
 order = 20
 intensity = "gain"
 aliases = ["bass"]
-description = "More low end."
+description = "增强低频。"
 
 [[param]]
 key = "gain"
-label = "Gain"
+label = "增益"
 min = 0
 max = 12
 default = 5

@@ -1,16 +1,16 @@
 [effect]
 id = "concat.vinyl"
-name = "Vinyl"
+name = "黑胶唱片"
 kind = "audio"
-category = "Tone"
+category = "音色"
 order = 24
 intensity = "warmth"
 aliases = ["record", "gramophone"]
-description = "Warm, vintage turntable character with band-limited sound."
+description = "温暖的复古唱片机质感，频带受限。"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 0
 max = 10
 default = 5

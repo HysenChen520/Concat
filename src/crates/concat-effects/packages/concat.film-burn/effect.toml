@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.film-burn"
-name = "Film Burn"
+name = "胶片灼烧"
 kind = "transition"
-category = "Dissolve"
+category = "溶解"
 order = 2
-description = "A warm over-exposed flash burns through the cut."
+description = "一束过曝暖光灼烧过剪切点。"
 
 [[param]]
 key = "heat"
-label = "Heat"
+label = "热度"
 min = 0
 max = 100
 default = 70

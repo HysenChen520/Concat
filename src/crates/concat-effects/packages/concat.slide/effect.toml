@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.slide"
-name = "Slide"
+name = "滑动"
 kind = "transition"
-category = "Slide"
+category = "滑动"
 order = 4
-description = "The next shot glides in over the last one and settles, casting a soft shadow on the shot it covers."
+description = "下一镜头滑入覆盖上一镜头并落定，在所覆盖镜头上投下柔影。"
 
 [[param]]
 key = "direction"
-label = "Direction"
+label = "方向"
 type = "enum"
 values = [0, 1, 2, 3]
-labels = ["Left", "Right", "Up", "Down"]
+labels = ["左", "右", "上", "下"]
 default = 0
 min = 0
 max = 3

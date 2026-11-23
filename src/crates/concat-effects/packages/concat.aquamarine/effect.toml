@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.aquamarine"
-name = "Aquamarine"
+name = "海蓝宝"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 16
 intensity = "water"
-description = "Water and sky turned aquamarine and brightened, sand and skin left warm and clean. The beach-day look creators reach for first."
+description = "水与天空转为明亮的海蓝宝石色，沙滩与皮肤保持温暖干净。创作者拍海滩首选的色调。"
 
 [[param]]
 key = "water"
-label = "Water"
+label = "水色"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "brightness"
-label = "Brightness"
+label = "亮度"
 min = 0
 max = 100
 default = 40

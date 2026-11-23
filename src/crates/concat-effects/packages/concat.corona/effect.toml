@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.corona"
-name = "Corona"
+name = "日冕光晕"
 version = 1
 kind = "effect"
-category = "Film"
+category = "胶片"
 order = 151
 intensity = "amount"
 aliases = ["corona"]
-description = "A cool blue-white corona gathered off the picture's blown highlights by a golden-angle spiral blur - built from nothing, not a port of the stock halation."
+description = "由金色螺旋模糊从画面过曝高光中聚出的冷蓝白光晕——纯程序生成，并非素材光晕的移植。"
 
 [[param]]
 key = "threshold"
-label = "Threshold"
+label = "阈值"
 min = 20
 max = 95
 default = 60
@@ -22,7 +22,7 @@ unit = "%"
 
 [[param]]
 key = "radius"
-label = "Radius"
+label = "半径"
 min = 4
 max = 60
 default = 18
@@ -31,7 +31,7 @@ unit = "%"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 55
@@ -40,7 +40,7 @@ unit = "%"
 
 [[param]]
 key = "cool"
-label = "Coolness"
+label = "冷度"
 min = 0
 max = 100
 default = 70

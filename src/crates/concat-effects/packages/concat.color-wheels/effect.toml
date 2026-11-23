@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.color-wheels"
-name = "Color Wheels"
+name = "色轮"
 kind = "effect"
-category = "Color"
+category = "色彩"
 order = 14
-description = "Lift, gamma and gain: the shadows, midtones and highlights each pushed towards a hue and made brighter or darker."
+description = "阴影、中间调、高光的提升、Gamma 与增益：各自推向某一色相并调亮或压暗。"
 
 [[param]]
 key = "lift"
-group = "Wheels"
-label = "Lift"
+group = "色轮"
+label = "提升"
 type = "wheel"
 min = -1
 max = 1
@@ -21,8 +21,8 @@ animate = true
 
 [[param]]
 key = "gamma"
-group = "Wheels"
-label = "Gamma"
+group = "色轮"
+label = "伽马"
 type = "wheel"
 min = -1
 max = 1
@@ -32,8 +32,8 @@ animate = true
 
 [[param]]
 key = "gain"
-group = "Wheels"
-label = "Gain"
+group = "色轮"
+label = "增益"
 type = "wheel"
 min = -1
 max = 1

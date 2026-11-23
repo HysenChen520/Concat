@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.clock-wipe"
-name = "Clock Wipe"
+name = "时钟擦除"
 kind = "transition"
-category = "Wipe"
+category = "擦除"
 order = 15
-description = "A hand sweeps once round the face of the frame from twelve, leaving the next shot behind it."
+description = "一只指针从十二点方向绕画面扫过一周，下一镜头留在其身后。"
 
 [transition]
 fallback = "cross-fade"

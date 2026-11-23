@@ -1,16 +1,16 @@
 [effect]
 id = "concat.whisper"
-name = "Whisper"
+name = "耳语"
 kind = "audio"
-category = "Voice"
+category = "人声"
 order = 16
 intensity = "air"
 aliases = ["breathy", "intimate"]
-description = "Airy, breathy tone with attenuated low end and enhanced presence."
+description = "轻盈气声，低频衰减、临场感增强。"
 
 [[param]]
 key = "air"
-label = "Air"
+label = "气声"
 min = 1
 max = 10
 default = 5

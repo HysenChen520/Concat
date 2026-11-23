@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.vaporwave"
-name = "Vaporwave"
+name = "蒸汽波"
 kind = "filter"
-category = "Vibe"
+category = "氛围"
 order = 67
-description = "Magenta and cyan pushed hard, a saturated retro-synth cast."
+description = "品红与青强推，饱和的复古合成器偏色。"
 
 [wgsl]
 entry = "effect.wgsl"

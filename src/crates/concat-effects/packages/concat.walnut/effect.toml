@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.walnut"
-name = "Walnut"
+name = "胡桃棕"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 19
 intensity = "warmth"
-description = "The café look: warm brown through the middle, greens muted to olive, contrast eased. Cosy, and kind to wood and skin alike."
+description = "咖啡馆质感：中间调暖棕，绿色收敛为橄榄，对比缓和。温馨，对木质与皮肤都友好。"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "soften"
-label = "Soften"
+label = "柔化"
 min = 0
 max = 100
 default = 40

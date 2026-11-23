@@ -624,7 +624,10 @@ impl Studio {
         }) else {
             return;
         };
-        let keys = package.category().eq_ignore_ascii_case("Cutout");
+        let keys = matches!(
+            package.id(),
+            "concat.chroma-key" | "concat.luma-key" | "concat.remove-black"
+        );
         link.params.insert(
             pick.key.clone(),
             packed(slint::Color::from_argb_u8(255, r, g, b)),

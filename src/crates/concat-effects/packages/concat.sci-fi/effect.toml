@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.sci-fi"
-name = "Sci-Fi"
+name = "科幻"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 53
-description = "A cool, sterile steel-and-teal grade, saturation held back."
+description = "冷峻、干净的钢青调色，饱和度收敛。"
 
 [wgsl]
 entry = "effect.wgsl"

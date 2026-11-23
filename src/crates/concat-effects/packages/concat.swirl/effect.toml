@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.swirl"
-name = "Swirl"
+name = "旋涡"
 kind = "transition"
-category = "Spin"
+category = "旋转"
 order = 7
 shelves = ["Distortion & Glitch"]
-description = "Both shots twist round the centre like water down a drain, and the next one untwists out of the whirl."
+description = "两个镜头绕中心像下水旋涡般扭转，下一镜头自旋涡中解开转出。"
 
 [[param]]
 key = "twist"
-label = "Twist"
+label = "扭曲"
 unit = "%"
 min = 0
 max = 100

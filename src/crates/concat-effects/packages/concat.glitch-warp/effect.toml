@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.glitch-warp"
-name = "Glitch Warp"
+name = "故障扭曲"
 kind = "transition"
-category = "Glitch"
+category = "故障"
 order = 17
-description = "Chromatic slice tear and digital pixel displacement transition."
+description = "色切片撕裂与数码像素位移转场。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 75

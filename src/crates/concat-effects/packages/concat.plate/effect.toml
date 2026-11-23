@@ -1,16 +1,16 @@
 [effect]
 id = "concat.plate"
-name = "Plate"
+name = "板式混响"
 kind = "audio"
-category = "Space"
+category = "空间"
 order = 33
 intensity = "size"
 aliases = ["plate"]
-description = "A studio plate: dense, bright and short."
+description = "棚内底噪：密实、明亮而短促。"
 
 [[param]]
 key = "size"
-label = "Size"
+label = "大小"
 min = 0
 max = 100
 default = 40

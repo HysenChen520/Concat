@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.pixelate"
-name = "Pixelate"
+name = "像素化"
 version = 2
 kind = "effect"
-category = "Distort"
+category = "扭曲"
 order = 50
 intensity = "size"
 aliases = ["pixelate"]
-description = "Big square pixels."
+description = "大尺寸方块像素。"
 
 [[param]]
 key = "size"
-label = "Size"
+label = "大小"
 type = "int"
 min = 2
 max = 64

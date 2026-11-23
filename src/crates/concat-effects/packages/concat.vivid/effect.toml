@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.vivid"
-name = "Vivid"
+name = "鲜艳"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 11
 intensity = "colour"
-description = "Colour that sings and contrast that bites, with a little edge: the look that reads as a better camera. Skin is held back from the boost."
+description = "色彩鲜亮、对比锐利，带一点边缘感：看起来像更好相机拍出的画面。皮肤在提升中被保留。"
 
 [[param]]
 key = "colour"
-label = "Colour"
+label = "颜色"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "punch"
-label = "Punch"
+label = "冲击"
 min = 0
 max = 100
 default = 50

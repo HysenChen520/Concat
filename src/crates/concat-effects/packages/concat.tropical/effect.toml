@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.tropical"
-name = "Tropical"
+name = "热带"
 kind = "filter"
-category = "Scenery"
+category = "风光"
 order = 60
-description = "Saturated and bright, the water pushed teal."
+description = "饱和明亮，水体推向青绿。"
 
 [wgsl]
 entry = "effect.wgsl"

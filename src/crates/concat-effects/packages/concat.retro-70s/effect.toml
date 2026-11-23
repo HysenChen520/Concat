@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.retro-70s"
-name = "Retro 70s"
+name = "70 年代复古"
 kind = "filter"
-category = "Film"
+category = "胶片"
 order = 63
-description = "A heavy warm fade with a yellowed, sun-bleached cast."
+description = "浓重暖色淡入，泛黄、日晒褪色的偏色。"
 
 [wgsl]
 entry = "effect.wgsl"

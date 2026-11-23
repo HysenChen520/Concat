@@ -2,19 +2,19 @@ format = 2
 
 [effect]
 id = "concat.zoom-transition"
-name = "Zoom"
+name = "缩放"
 kind = "transition"
-category = "Zoom"
+category = "缩放"
 order = 3
 aliases = ["zoom"]
-description = "One unbroken push of the camera: into the last shot and on out of it into the next, streaked by the speed."
+description = "镜头一次不间断推进：冲入上一镜头再穿出进入下一镜头，被速度拉出条纹。"
 
 [[param]]
 key = "direction"
-label = "Direction"
+label = "方向"
 type = "enum"
 values = [0, 1]
-labels = ["In", "Out"]
+labels = ["推入", "拉出"]
 default = 0
 min = 0
 max = 1

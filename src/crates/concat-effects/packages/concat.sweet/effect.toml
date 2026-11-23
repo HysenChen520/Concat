@@ -1,16 +1,16 @@
 [effect]
 id = "concat.sweet"
-name = "Sweet"
+name = "甜美"
 kind = "audio"
-category = "Voice"
+category = "人声"
 order = 10
 intensity = "amount"
 aliases = ["sweet"]
-description = "A brighter, lighter, closer voice. Pitch at 0 follows the amount."
+description = "更亮、更轻、更近的人声。音高为 0 时跟随用量。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 65
@@ -19,7 +19,7 @@ unit = "%"
 
 [[param]]
 key = "pitch"
-label = "Pitch"
+label = "音调"
 min = 0
 max = 8
 default = 0

@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.whip-pan"
-name = "Whip Pan"
+name = "甩镜"
 kind = "transition"
-category = "Wipe"
+category = "擦除"
 order = 14
-description = "The camera whips sideways so fast the frame smears, and lands on the next shot."
+description = "镜头极速侧甩，画面拖影，落到下一镜头。"
 
 [[param]]
 key = "speed"
-label = "Speed"
+label = "速度"
 unit = "%"
 min = 20
 max = 100

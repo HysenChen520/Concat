@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.motion-blur"
-name = "Motion Blur"
+name = "动态模糊"
 kind = "effect"
-category = "Blur"
+category = "模糊"
 order = 22
 version = 2
 intensity = "length"
 aliases = ["motion-blur"]
-description = "A streak along a line, as if the camera panned."
+description = "沿一条方向拉出拖影，如同摇摄镜头。"
 
 [[param]]
 key = "length"
-label = "Length"
+label = "长度"
 min = 2
 max = 60
 default = 18
@@ -22,7 +22,7 @@ unit = "px"
 
 [[param]]
 key = "angle"
-label = "Angle"
+label = "角度"
 min = -90
 max = 90
 default = 0

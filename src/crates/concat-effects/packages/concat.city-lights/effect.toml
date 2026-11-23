@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.city-lights"
-name = "City Lights"
+name = "城市霓虹"
 kind = "filter"
-category = "Stylised"
+category = "风格化"
 order = 52
 intensity = "lights"
-description = "Night city: the lights and signs made vivid and blooming, blacks kept deep and cool, faces left clean. Made for the strip."
+description = "夜景都市：灯光招牌鲜艳发光，黑位深而冷，人脸保持干净。为商业街而做。"
 
 [[param]]
 key = "lights"
-label = "Lights"
+label = "灯光"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "depth"
-label = "Depth"
+label = "深度"
 min = 0
 max = 100
 default = 40

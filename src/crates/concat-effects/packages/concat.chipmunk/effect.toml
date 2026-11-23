@@ -1,16 +1,16 @@
 [effect]
 id = "concat.chipmunk"
-name = "Chipmunk"
+name = "花栗鼠高音"
 kind = "audio"
-category = "Voice"
+category = "人声"
 order = 12
 intensity = "pitch"
 aliases = ["chipmunk"]
-description = "Higher and squeakier."
+description = "更高、更尖。"
 
 [[param]]
 key = "pitch"
-label = "Pitch"
+label = "音调"
 min = 3
 max = 12
 default = 7

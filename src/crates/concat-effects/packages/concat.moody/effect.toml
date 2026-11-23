@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.moody"
-name = "Moody"
+name = "沉郁"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 31
 intensity = "depth"
-description = "Blacks crushed by a film toe, colour drained, bronze through the middle, cool in the shadows, the corners closing in."
+description = "胶片趾部压黑，色彩抽离，中间调偏铜，阴影偏冷，四角收紧。"
 
 [[param]]
 key = "depth"
-label = "Depth"
+label = "深度"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 0
 max = 100
 default = 50

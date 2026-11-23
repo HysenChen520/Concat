@@ -1,16 +1,16 @@
 [effect]
 id = "concat.hall"
-name = "Hall"
+name = "厅堂混响"
 kind = "audio"
-category = "Space"
+category = "空间"
 order = 32
 intensity = "size"
 aliases = ["hall"]
-description = "A concert hall: long, even reflections."
+description = "音乐厅：悠长均匀的反射声。"
 
 [[param]]
 key = "size"
-label = "Size"
+label = "大小"
 min = 0
 max = 100
 default = 50

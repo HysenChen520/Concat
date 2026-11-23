@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.silver"
-name = "Silver"
+name = "银灰黑白"
 kind = "filter"
-category = "Black & White"
+category = "黑白"
 order = 65
-description = "A cool, soft black and white with the shadows lifted, like a silver print."
+description = "冷调柔和黑白，阴影提亮，如同银盐照片。"
 
 [wgsl]
 entry = "effect.wgsl"

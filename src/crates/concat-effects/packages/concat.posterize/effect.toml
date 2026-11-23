@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.posterize"
-name = "Posterize"
+name = "色调分离"
 version = 2
 kind = "effect"
-category = "Stylize"
+category = "风格化"
 order = 43
 intensity = "levels"
 aliases = ["posterize"]
-description = "Flat bands of colour, like a screen print."
+description = "平涂色块，如同丝网印刷。"
 
 [[param]]
 key = "levels"
-label = "Levels"
+label = "色阶"
 type = "int"
 min = 2
 max = 8

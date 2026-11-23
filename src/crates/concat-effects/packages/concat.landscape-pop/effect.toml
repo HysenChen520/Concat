@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.landscape-pop"
-name = "Vivid Landscape"
+name = "鲜明风光"
 kind = "filter"
-category = "Scenery"
+category = "风光"
 order = 57
-description = "Greens and blues pushed richer, the punch a travel shot wants."
+description = "绿与蓝更浓郁，旅行镜头所需的冲击力。"
 
 [wgsl]
 entry = "effect.wgsl"

@@ -2,12 +2,12 @@ format = 2
 
 [effect]
 id = "concat.dissolve"
-name = "Dissolve"
+name = "溶解"
 kind = "transition"
-category = "Basic"
+category = "基础"
 order = 0
 aliases = ["cross-fade"]
-description = "One shot melts evenly into the next."
+description = "一个镜头均匀消融进下一镜头。"
 
 [transition]
 fallback = "cross-fade"

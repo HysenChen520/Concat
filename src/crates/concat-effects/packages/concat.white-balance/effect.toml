@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.white-balance"
-name = "White Balance"
+name = "白平衡"
 kind = "effect"
-category = "Color"
+category = "色彩"
 order = 13
 intensity = "temperature"
-description = "The picture as if lit warmer or cooler, and turned towards magenta or green, as the eye adapts to the light."
+description = "仿佛被更暖或更冷的光照亮，并偏向品红或绿，如同眼睛适应光线后的观感。"
 
 [[param]]
 key = "temperature"
-label = "Temperature"
+label = "色温"
 min = 2000
 max = 11000
 default = 6500
@@ -21,7 +21,7 @@ animate = true
 
 [[param]]
 key = "tint"
-label = "Tint"
+label = "色调"
 min = -100
 max = 100
 default = 0

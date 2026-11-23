@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.cool-blue"
-name = "Cool Blue"
+name = "冷蓝"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 32
 intensity = "chill"
-description = "Blue in the shadows and midtones, highlights and skin left neutral, contrast up. Cities at dusk."
+description = "阴影与中间调偏蓝，高光与皮肤保持中性，对比提升。黄昏城市适用。"
 
 [[param]]
 key = "chill"
-label = "Chill"
+label = "冷度"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "contrast"
-label = "Contrast"
+label = "对比度"
 min = 0
 max = 100
 default = 30

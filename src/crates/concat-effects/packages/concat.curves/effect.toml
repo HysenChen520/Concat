@@ -2,34 +2,34 @@ format = 2
 
 [effect]
 id = "concat.curves"
-name = "Curves"
+name = "曲线"
 kind = "effect"
-category = "Color"
+category = "色彩"
 order = 15
-description = "The picture's levels bent along curves you draw: luma for brightness alone, then red, green and blue."
+description = "沿你绘制的曲线调整画面电平：亮度曲线只控明度，再分别调红、绿、蓝。"
 
 [[param]]
 key = "luma"
-group = "Curves"
-label = "Luma"
+group = "曲线"
+label = "亮度"
 type = "curve"
 
 [[param]]
 key = "red"
-group = "Curves"
-label = "Red"
+group = "曲线"
+label = "红"
 type = "curve"
 
 [[param]]
 key = "green"
-group = "Curves"
-label = "Green"
+group = "曲线"
+label = "绿"
 type = "curve"
 
 [[param]]
 key = "blue"
-group = "Curves"
-label = "Blue"
+group = "曲线"
+label = "蓝"
 type = "curve"
 
 [wgsl]

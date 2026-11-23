@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.halation"
-name = "Halation"
+name = "泛光晕染"
 version = 3
 kind = "effect"
-category = "Film"
+category = "胶片"
 order = 150
 intensity = "amount"
 aliases = ["halation"]
-description = "The red-orange halo film lays around its blown highlights, where light passes through the emulsion, scatters off the backing and comes back."
+description = "胶片在过曝高光周围留下的红橙光晕——光线穿过乳剂、从片基散射回来形成。"
 
 [[param]]
 key = "threshold"
-label = "Threshold"
+label = "阈值"
 min = 20
 max = 95
 default = 55
@@ -22,7 +22,7 @@ unit = "%"
 
 [[param]]
 key = "radius"
-label = "Radius"
+label = "半径"
 min = 4
 max = 60
 default = 22
@@ -31,7 +31,7 @@ unit = "%"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0
 max = 100
 default = 45
@@ -40,7 +40,7 @@ unit = "%"
 
 [[param]]
 key = "tint"
-label = "Tint"
+label = "色调"
 min = -100
 max = 100
 default = 0

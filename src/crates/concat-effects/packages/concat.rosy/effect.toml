@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.rosy"
-name = "Rosy"
+name = "红润"
 kind = "filter"
-category = "Portrait"
+category = "人像"
 order = 56
-description = "A soft pink lift into the highlights, flattering and warm."
+description = "高光柔粉提升，讨喜而温暖。"
 
 [wgsl]
 entry = "effect.wgsl"

@@ -1,15 +1,15 @@
 [effect]
 id = "concat.lofi"
-name = "Lo-fi"
+name = "Lo-fi 低保真"
 kind = "audio"
-category = "Tone"
+category = "音色"
 order = 25
 intensity = "bits"
-description = "A small old speaker: no top end, and a grain to the sound."
+description = "老旧小音箱：没有高频，声音带颗粒感。"
 
 [[param]]
 key = "bits"
-label = "Bits"
+label = "比特"
 min = 4
 max = 12
 default = 8

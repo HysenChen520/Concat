@@ -449,12 +449,12 @@ impl Package {
                 }
                 &[]
             }
-            "Retro & Film" => &["Retro", "Film", "Cinematic"],
-            "Optical & Lens" => &["Optical", "Lens", "Blur"],
-            "Distortion & Glitch" => &["Distort", "Glitch"],
-            "Shake & Motion" => &["Shake", "Motion"],
+            "Retro & Film" => &["Retro", "Film", "Cinematic", "复古", "胶片", "电影感"],
+            "Optical & Lens" => &["Optical", "Lens", "Blur", "模糊"],
+            "Distortion & Glitch" => &["Distort", "Glitch", "扭曲", "故障"],
+            "Shake & Motion" => &["Shake", "Motion", "抖动"],
             "Party & Club" => &["Party", "Club"],
-            "Light & Shadow" => &["Light", "Shadow"],
+            "Light & Shadow" => &["Light", "Shadow", "光效"],
             _ => &[],
         };
         gathers.iter().any(|shelf| named(shelf))

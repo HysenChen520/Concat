@@ -1,16 +1,16 @@
 [effect]
 id = "concat.megaphone"
-name = "Megaphone"
+name = "扩音器"
 kind = "audio"
-category = "Voice"
+category = "人声"
 order = 15
 intensity = "drive"
 aliases = ["bullhorn", "loudspeaker"]
-description = "Harsh, mid-focused projection from a handheld megaphone."
+description = "手持扩音器般刺耳、聚焦中频的喊话声。"
 
 [[param]]
 key = "drive"
-label = "Drive"
+label = "失真度"
 min = 1
 max = 10
 default = 5

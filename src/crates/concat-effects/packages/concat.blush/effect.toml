@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.blush"
-name = "Blush"
+name = "腮红"
 kind = "filter"
-category = "Portrait"
+category = "人像"
 order = 20
 intensity = "glow"
-description = "Skin warmed toward peach and softened, shadows lifted so lines ease, contrast low. Portraits and talking heads; it is meant to run at half strength."
+description = "皮肤偏桃色并柔化，阴影提亮让纹路缓和，对比偏低。适合人像与口播，建议以半强度运行。"
 
 [[param]]
 key = "glow"
-label = "Glow"
+label = "光晕"
 min = 0
 max = 100
 default = 50
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "softness"
-label = "Softness"
+label = "柔化"
 min = 0
 max = 100
 default = 40

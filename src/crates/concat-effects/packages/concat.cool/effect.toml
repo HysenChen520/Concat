@@ -2,17 +2,17 @@ format = 2
 
 [effect]
 id = "concat.cool"
-name = "Cool"
+name = "冷调"
 kind = "filter"
-category = "Color"
+category = "色彩"
 order = 31
 intensity = "temperature"
 aliases = ["cool"]
-description = "Shifts the picture towards daylight shade."
+description = "将画面推向日光冷调。"
 
 [[param]]
 key = "temperature"
-label = "Temperature"
+label = "色温"
 min = 7000
 max = 11000
 default = 8500

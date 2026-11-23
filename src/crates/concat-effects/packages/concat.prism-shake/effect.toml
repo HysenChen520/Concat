@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.prism-shake"
-name = "Prism Shake"
+name = "棱镜抖动"
 kind = "effect"
-category = "Shake"
+category = "抖动"
 order = 7
 intensity = "amount"
-description = "Red, green and blue each shake on their own, so every edge fringes with colour as the frame trembles."
+description = "红绿蓝各自独立抖动，画面颤抖时每条边缘都镶上色边。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 unit = "%"
 min = 0
 max = 100
@@ -20,7 +20,7 @@ default = 50
 
 [[param]]
 key = "speed"
-label = "Speed"
+label = "速度"
 unit = "%"
 min = 0
 max = 100
@@ -29,7 +29,7 @@ default = 50
 
 [[param]]
 key = "split"
-label = "Split"
+label = "分离"
 unit = "%"
 min = 0
 max = 100

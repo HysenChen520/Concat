@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.retro-cartoon"
-name = "Retro Cartoon"
+name = "复古卡通"
 kind = "filter"
-category = "Stylised"
+category = "风格化"
 order = 55
 intensity = "ink"
-description = "Flat bands of colour with inked edges, like a printed comic."
+description = "平涂色块配墨线边缘，如同印刷漫画。"
 
 [[param]]
 key = "levels"
-label = "Levels"
+label = "色阶"
 min = 2
 max = 8
 default = 5
@@ -19,7 +19,7 @@ step = 1
 
 [[param]]
 key = "ink"
-label = "Ink"
+label = "墨色"
 min = 0
 max = 100
 default = 60

@@ -1,15 +1,15 @@
 [effect]
 id = "concat.loudness"
-name = "Normalize Loudness"
+name = "响度归一化"
 kind = "audio"
-category = "Clean"
+category = "修复"
 order = 40
 intensity = "target"
-description = "Brings the whole clip to one loudness, the way broadcast and the platforms expect."
+description = "把整段素材拉到统一响度，符合广播与平台的要求。"
 
 [[param]]
 key = "target"
-label = "Target"
+label = "目标响度"
 min = -30
 max = -12
 default = -23

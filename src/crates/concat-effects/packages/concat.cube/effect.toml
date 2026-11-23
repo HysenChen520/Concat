@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.cube"
-name = "Cube"
+name = "立方体旋转"
 kind = "transition"
-category = "Spin"
+category = "旋转"
 order = 14
-description = "The two shots are neighbouring faces of a box that turns a quarter of the way round, with the turning-away face falling into shade."
+description = "两个镜头如同盒子相邻的两个面，转动四分之一周，转开的一面没入阴影。"
 
 [transition]
 fallback = "cross-fade"

@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.luminous"
-name = "Luminous"
+name = "透亮肤色"
 kind = "filter"
-category = "Portrait"
+category = "人像"
 order = 21
 intensity = "brighten"
-description = "Faces brightened and evened: skin lifted, reds calmed, the balance neutral, the rest of the frame left where it was."
+description = "人脸提亮并匀净：肤色提升，红色压下，白平衡中性，画面其余部分保持原样。"
 
 [[param]]
 key = "brighten"
-label = "Brighten"
+label = "提亮"
 min = 0
 max = 100
 default = 50
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "even"
-label = "Even"
+label = "均匀"
 min = 0
 max = 100
 default = 50

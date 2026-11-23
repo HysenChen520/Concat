@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.window-seat"
-name = "Window Seat"
+name = "窗边光影"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 35
 intensity = "haze"
-description = "Soft cinema: blacks lifted, the light blooming warm, shadows a touch cool, skin kept. The look of a story told in a window seat."
+description = "柔和影院感：黑位提亮，暖光发光，阴影略冷，皮肤保留。靠窗座位讲述故事的色调。"
 
 [[param]]
 key = "haze"
-label = "Haze"
+label = "雾感"
 min = 0
 max = 100
 default = 50
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 0
 max = 100
 default = 50

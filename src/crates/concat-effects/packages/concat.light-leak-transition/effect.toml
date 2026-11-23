@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.light-leak-transition"
-name = "Light Leak"
+name = "漏光"
 kind = "transition"
-category = "Light"
+category = "光效"
 order = 13
-description = "A wash of warm light flares across the frame and the next shot is left behind it as it passes."
+description = "一片暖光扫过画面，经过时把下一镜头留在身后。"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 unit = "%"
 min = 0
 max = 100

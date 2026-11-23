@@ -2,18 +2,18 @@ format = 2
 
 [effect]
 id = "concat.sharpen"
-name = "Sharpen"
+name = "锐化"
 version = 2
 kind = "effect"
-category = "Basic"
+category = "基础"
 order = 13
 intensity = "amount"
 aliases = ["sharpen"]
-description = "Crisper edges."
+description = "边缘更清晰。"
 
 [[param]]
 key = "amount"
-label = "Amount"
+label = "强度"
 min = 0.2
 max = 3
 default = 1

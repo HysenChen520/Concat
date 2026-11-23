@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.night"
-name = "Night"
+name = "夜色"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 33
 intensity = "lift"
-description = "Low light opened up: shadows lifted with the noise softened before it rises, whites held, the blue of the night kept."
+description = "弱光拉开：阴影提亮并先柔化噪点，保住白位，保留夜色的蓝。"
 
 [[param]]
 key = "lift"
-label = "Lift"
+label = "提升"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "clarity"
-label = "Clarity"
+label = "清晰度"
 min = 0
 max = 100
 default = 40

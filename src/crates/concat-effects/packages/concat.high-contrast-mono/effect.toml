@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.high-contrast-mono"
-name = "High-Contrast Mono"
+name = "高反差黑白"
 kind = "filter"
-category = "Black & White"
+category = "黑白"
 order = 64
-description = "Black and white pushed hard: deep blacks, bright whites, nothing in between."
+description = "高对比黑白：深黑、亮白，中间几乎不留灰。"
 
 [wgsl]
 entry = "effect.wgsl"

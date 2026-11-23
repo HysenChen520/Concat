@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.contrast"
-name = "Contrast"
+name = "对比度"
 kind = "effect"
-category = "Color"
+category = "色彩"
 order = 11
 intensity = "amount"
-description = "More or less contrast in stops about middle grey, highlights past white kept and black never crushed."
+description = "以中灰为基准增减对比（档），保住过白高光，黑位不压死。"
 
 [[param]]
 key = "amount"
-label = "Contrast"
+label = "对比度"
 min = -100
 max = 100
 default = 0

@@ -1,16 +1,16 @@
 [effect]
 id = "concat.robot"
-name = "Robot"
+name = "机器人"
 kind = "audio"
-category = "Voice"
+category = "人声"
 order = 13
 intensity = "depth"
 aliases = ["robot"]
-description = "A metallic, modulated voice."
+description = "金属质感、调制过的声音。"
 
 [[param]]
 key = "depth"
-label = "Depth"
+label = "深度"
 min = 1
 max = 10
 default = 5

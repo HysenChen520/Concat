@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.golden-hour"
-name = "Golden Hour"
+name = "黄金时刻"
 kind = "filter"
-category = "Everyday"
+category = "日常"
 order = 14
 intensity = "glow"
-description = "Late light: a warm balance that keeps its brightness, orange in the highlights, a whisper of magenta in the shadows, blacks lifted a touch."
+description = "傍晚光线：保持亮度的暖色平衡，高光偏橙，阴影一丝品红，黑位略提。"
 
 [[param]]
 key = "glow"
-label = "Glow"
+label = "光晕"
 min = 0
 max = 100
 default = 50
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 3500
 max = 6500
 default = 4600

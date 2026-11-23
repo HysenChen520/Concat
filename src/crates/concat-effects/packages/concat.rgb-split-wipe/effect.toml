@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.rgb-split-wipe"
-name = "RGB Split"
+name = "RGB 分离"
 kind = "transition"
-category = "Glitch"
+category = "故障"
 order = 9
-description = "Red, green and blue tear apart through the cut, each switching shots at its own moment, and lock back together."
+description = "红绿蓝在剪切处撕裂分离，各自在不同时刻切换镜头，再重新合拢。"
 
 [[param]]
 key = "spread"
-label = "Spread"
+label = "扩散"
 unit = "%"
 min = 0
 max = 100

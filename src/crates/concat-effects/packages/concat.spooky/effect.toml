@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.spooky"
-name = "Spooky"
+name = "诡谲"
 kind = "filter"
-category = "Stylised"
+category = "风格化"
 order = 54
 intensity = "dread"
-description = "Drained colour, a green-cyan cast, a hard toe, and a heavy vignette. For the season."
+description = "色彩抽离，绿青偏色，硬趾部，浓重暗角。应景节日款。"
 
 [[param]]
 key = "dread"
-label = "Dread"
+label = "惊悚度"
 min = 0
 max = 100
 default = 60

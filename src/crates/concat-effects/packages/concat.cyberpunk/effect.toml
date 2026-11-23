@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.cyberpunk"
-name = "Cyberpunk"
+name = "赛博朋克"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 52
-description = "Magenta into the shadows, cyan into the light, pushed hard and neon-bright."
+description = "阴影偏品红，亮部偏青，推到强烈的霓虹亮度。"
 
 [wgsl]
 entry = "effect.wgsl"

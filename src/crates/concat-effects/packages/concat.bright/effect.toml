@@ -1,16 +1,16 @@
 [effect]
 id = "concat.bright"
-name = "Bright"
+name = "明亮"
 kind = "audio"
-category = "Tone"
+category = "音色"
 order = 22
 intensity = "gain"
 aliases = ["bright"]
-description = "Air and presence: a lift above six kilohertz."
+description = "空气感与临场感：抬升六千赫兹以上。"
 
 [[param]]
 key = "gain"
-label = "Gain"
+label = "增益"
 min = 0
 max = 12
 default = 5

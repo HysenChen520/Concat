@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.instant-print"
-name = "Instant Print"
+name = "拍立得"
 kind = "filter"
-category = "Retro"
+category = "复古"
 order = 41
 intensity = "fade"
-description = "The instant print: a cream matte, warm highlights, cyan creeping into the shadows, a little softness in the corners."
+description = "一次成像照片：奶油色哑光，高光偏暖，阴影渗入青色，四角略柔。"
 
 [[param]]
 key = "fade"
-label = "Fade"
+label = "衰减"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "warmth"
-label = "Warmth"
+label = "暖度"
 min = 0
 max = 100
 default = 50

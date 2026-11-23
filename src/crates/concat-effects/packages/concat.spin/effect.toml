@@ -2,15 +2,15 @@ format = 2
 
 [effect]
 id = "concat.spin"
-name = "Spin"
+name = "旋转"
 kind = "transition"
-category = "Spin"
+category = "旋转"
 order = 6
-description = "The frame whirls round, blurring as it turns, and the next shot spins out of the turn and comes to rest."
+description = "画面旋转，转动中模糊，下一镜头自旋转中转出并停下。"
 
 [[param]]
 key = "turns"
-label = "Turns"
+label = "圈数"
 min = 0.5
 max = 2
 step = 0.25

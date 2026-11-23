@@ -2,11 +2,11 @@ format = 2
 
 [effect]
 id = "concat.dreamy"
-name = "Dreamy"
+name = "梦幻"
 kind = "filter"
-category = "Vibe"
+category = "氛围"
 order = 66
-description = "A soft, hazy bloom over lifted pastel blacks."
+description = "在提亮的粉彩黑位上覆盖一层柔和朦胧光晕。"
 
 [wgsl]
 entry = "effect.wgsl"

@@ -2,16 +2,16 @@ format = 2
 
 [effect]
 id = "concat.wet-street"
-name = "Wet Street"
+name = "雨后湿街"
 kind = "filter"
-category = "Cinematic"
+category = "电影感"
 order = 38
 intensity = "haze"
-description = "Cool, hazy and drained, with the wet reflections lifted and blooming. Street-level walks at the end of the day."
+description = "冷调、朦胧、去色，湿润反光被提亮发光。傍晚街景漫步适用。"
 
 [[param]]
 key = "haze"
-label = "Haze"
+label = "雾感"
 min = 0
 max = 100
 default = 60
@@ -20,7 +20,7 @@ unit = "%"
 
 [[param]]
 key = "chill"
-label = "Chill"
+label = "冷度"
 min = 0
 max = 100
 default = 50

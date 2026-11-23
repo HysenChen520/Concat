@@ -2,19 +2,19 @@ format = 2
 
 [effect]
 id = "concat.push"
-name = "Push"
+name = "推移"
 kind = "transition"
-category = "Slide"
+category = "滑动"
 order = 5
 aliases = ["push"]
-description = "The next shot shoves the last one out of frame, both moving as one, with a streak of motion blur at full speed."
+description = "下一镜头把上一镜头推出画面，两者整体移动，全速处带运动模糊拖影。"
 
 [[param]]
 key = "direction"
-label = "Direction"
+label = "方向"
 type = "enum"
 values = [0, 1, 2, 3]
-labels = ["Left", "Right", "Up", "Down"]
+labels = ["左", "右", "上", "下"]
 default = 0
 min = 0
 max = 3

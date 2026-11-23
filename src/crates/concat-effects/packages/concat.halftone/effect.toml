@@ -2,17 +2,17 @@ format = 2
 
 [effect]
 id = "concat.halftone"
-name = "Halftone"
+name = "半色调"
 version = 2
 kind = "effect"
-category = "Retro"
+category = "复古"
 order = 76
 intensity = "size"
-description = "The picture reduced to a grid of black and white dots."
+description = "画面化为黑白点阵网格。"
 
 [[param]]
 key = "size"
-label = "Dot size"
+label = "网点大小"
 type = "int"
 min = 4
 max = 40
